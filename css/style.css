@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background: #e0e8ff;
+}
+#fundoImg{
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    padding-top: 75px;
+    padding-bottom: 90px;
+}
+
+.principal{
+    font-family: 'Red Hat Display', sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    width: 449px;
+    height: 100%px;
+    background: #ffffff;
+    margin: 0px auto;
+
+}
+.principal > figure{
+    margin: 0;
+
+}
+.principal> figure > img{
+    border-radius: 0px;
+}
+
+.text{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.text > h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.text > p{
+    font-size: 15px; 
+    text-align: center; 
+    align-items: center;
+    width: 300px;
+    margin-left: 76px;
+}
+
+.caixaItem{
+    text-align: center;
+    display: flex;
+    width: 320px;
+    margin: 0 71px;
+    justify-content: space-between;
+    background: #d8d9dd;
+    border: 1px solid #d8d8dd;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.caixaItem > figure{
+    margin: 0px;
+}
+.caixaItem > figure > img {
+    padding: 20px 7px 16px 23px;
+}
+
+.text_it{
+    margin-right: 48px;
+}
+.text_it > p{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.text_it >span{
+    color: #c1c1c1;
+    font-weight: 700;
+}
+
+
+.caixaItem > a{
+    margin-top: 32px;
+    padding-right: 20px;
+}
+a:hover{
+    color: #766CF1;
+    animation: none;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/*BOTÃO*/
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.butUm{
+    
+    width: 320px;
+    color: #ffffff;
+    background: #382AE1;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 1px 5px 10px #000000;
+}
+.butUm:hover{
+    background: #766CF1;
+
+}
+
+.btDois{
+    margin-top: 40px;
+    background: transparent;
+    border: none;
+    color:#7B8262;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+.btDois:hover{
+    color: #4B5171;
+    font-weight: 800;
+}

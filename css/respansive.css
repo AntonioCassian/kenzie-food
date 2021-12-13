@@ -1,0 +1,42 @@
+@media screen and (max-width: 700px){
+    body{
+        background-image: url("../images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+}
+   /* .principal{
+        margin: auto;
+        width: 60%;
+    }
+    .principal> figure > img{
+        width: 100%;
+    }
+    .text{
+        width: 200px;
+    }
+    .text > h2{
+        font-size: 15px;
+    }
+    .text > p{
+        margin-left: 0px;
+            font-size: 12px;
+            text-align: center;
+            width: 208px;
+    }
+    .caixaItem{
+        margin-left: auto;
+        width: 207px;
+    }
+    .caixaItem > figure{
+        width: auto;
+    }
+    .caixaItem > figure > img{
+        padding-top: 19px;
+        padding-left: 5px;
+    }
+    .text_it{
+
+    }
+}*/
